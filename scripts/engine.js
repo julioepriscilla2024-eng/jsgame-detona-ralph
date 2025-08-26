@@ -35,7 +35,7 @@ function countDown() {
 }
 
 function playsond(){
-    let audio = new Audio(./audios/hit.m4a);
+    let audio = new Audio(/audios/hit.m4a);
     audio.play();
 
 }
