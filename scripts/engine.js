@@ -34,6 +34,11 @@ function countDown() {
     }
 }
 
+function playsond(){
+    let audio new Audio(./audios/hit.m4a)
+
+}
+
 function randomSquare() {
     state.view.squares.forEach((square) => {
         square.classList.remove("enemy");
